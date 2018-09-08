@@ -1,0 +1,175 @@
+telegram	bot.py	/^import telegram$/;"	i
+random	bot.py	/^import random$/;"	i
+Updater	bot.py	/^from telegram.ext import Updater$/;"	i
+CommandHandler	bot.py	/^from telegram.ext import CommandHandler$/;"	i
+requests	bot.py	/^import requests$/;"	i
+threading	bot.py	/^import threading$/;"	i
+copy	bot.py	/^import copy$/;"	i
+urlencode	bot.py	/^from parse import urlencode$/;"	i
+TOKEN	bot.py	/^TOKEN = '399695637:AAEnj9GkwMMZAvYVuFmozEq4D7epsSj5KC0'$/;"	v
+mi_bot	bot.py	/^mi_bot = telegram.Bot(token=TOKEN)$/;"	v
+mi_bot_updater	bot.py	/^mi_bot_updater = Updater(mi_bot.token)$/;"	v
+prioridades	bot.py	/^prioridades = {$/;"	v
+syn_parameters	bot.py	/^syn_parameters = {$/;"	v
+synthesize	bot.py	/^def synthesize(text):$/;"	f
+start	bot.py	/^def start(bot=mi_bot, update=mi_bot_updater):$/;"	f
+ayuda	bot.py	/^def ayuda(bot=mi_bot, update=mi_bot_updater):$/;"	f
+split	bot.py	/^def split(bot=mi_bot, update=mi_bot_updater):$/;"	f
+sexysplit	bot.py	/^def sexysplit(bot=mi_bot,update=mi_bot_updater):$/;"	f
+sendsplitnumber	bot.py	/^def sendsplitnumber(bot=mi_bot, update=mi_bot_updater):$/;"	f
+kicksplit	bot.py	/^def kicksplit(bot=mi_bot,update=mi_bot_updater):$/;"	f
+riff	bot.py	/^def riff(bot = mi_bot, update=mi_bot_updater):$/;"	f
+CC	bot.py	/^def CC(bot =mi_bot, update=mi_bot_updater):$/;"	f
+famancil	bot.py	/^def famancil(bot =mi_bot, update=mi_bot_updater):$/;"	f
+nota	bot.py	/^def nota(bot=mi_bot, update=mi_bot_updater):$/;"	f
+angery	bot.py	/^def angery(bot=mi_bot, update=mi_bot_updater):$/;"	f
+calculate_CC	bot.py	/^def calculate_CC(nota1, nota2):$/;"	f
+notaCC	bot.py	/^def notaCC(bot=mi_bot, update=mi_bot_updater):$/;"	f
+react	bot.py	/^def react(bot=mi_bot, update=mi_bot_updater):$/;"	f
+getPrioridad	bot.py	/^def getPrioridad(bot=mi_bot, update=mi_bot_updater):$/;"	f
+zurdito	bot.py	/^def zurdito(bot=mi_bot,update=mi_bot_updater):$/;"	f
+tts	bot.py	/^def tts(bot=mi_bot, update=mi_bot_updater):$/;"	f
+start_handler	bot.py	/^start_handler = CommandHandler('start', start)$/;"	v
+ayuda_handler	bot.py	/^ayuda_handler = CommandHandler('?', ayuda)$/;"	v
+split_handler	bot.py	/^split_handler = CommandHandler('split',split)$/;"	v
+sexy_split_handler	bot.py	/^sexy_split_handler = CommandHandler('sexysplit', sexysplit)$/;"	v
+sendsplitnumber_handler	bot.py	/^sendsplitnumber_handler = CommandHandler('splitnumber',sendsplitnumber)$/;"	v
+kick_split_handler	bot.py	/^kick_split_handler = CommandHandler('kicksplit', kicksplit)$/;"	v
+riff_handler	bot.py	/^riff_handler = CommandHandler('studyIO',riff)$/;"	v
+CC_handler	bot.py	/^CC_handler = CommandHandler('studyCC',CC)$/;"	v
+famancil_handler	bot.py	/^famancil_handler = CommandHandler('makeISWproject',famancil)$/;"	v
+nota_handler	bot.py	/^nota_handler = CommandHandler('getNota',nota)$/;"	v
+angery_handler	bot.py	/^angery_handler = CommandHandler('angery',angery)$/;"	v
+nota_cc_handler	bot.py	/^nota_cc_handler = CommandHandler('notaCC',notaCC)$/;"	v
+react_handler	bot.py	/^react_handler = CommandHandler('react',react)$/;"	v
+get_prioridad_handler	bot.py	/^get_prioridad_handler = CommandHandler('getPrioridad',getPrioridad)$/;"	v
+zurdito_handler	bot.py	/^zurdito_handler = CommandHandler('zurdito',zurdito)$/;"	v
+tts_handler	bot.py	/^tts_handler = CommandHandler('tts',tts)$/;"	v
+dispatcher	bot.py	/^dispatcher = mi_bot_updater.dispatcher$/;"	v
+requests	watsontts.py	/^import requests$/;"	i
+copy	watsontts.py	/^import copy$/;"	i
+urlencode	watsontts.py	/^from parse import urlencode$/;"	i
+syn_parameters	watsontts.py	/^syn_parameters = {$/;"	v
+main	watsontts.py	/^def main():$/;"	f
+synthesize	watsontts.py	/^def synthesize(text):$/;"	f
+re	parse.py	/^import re$/;"	i
+sys	parse.py	/^import sys$/;"	i
+collections	parse.py	/^import collections$/;"	i
+__all__	parse.py	/^__all__ = ["urlparse", "urlunparse", "urljoin", "urldefrag",$/;"	v
+uses_relative	parse.py	/^uses_relative = ['ftp', 'http', 'gopher', 'nntp', 'imap',$/;"	v
+uses_netloc	parse.py	/^uses_netloc = ['ftp', 'http', 'gopher', 'nntp', 'telnet',$/;"	v
+uses_params	parse.py	/^uses_params = ['ftp', 'hdl', 'prospero', 'http', 'imap',$/;"	v
+non_hierarchical	parse.py	/^non_hierarchical = ['gopher', 'hdl', 'mailto', 'news',$/;"	v
+uses_query	parse.py	/^uses_query = ['http', 'wais', 'imap', 'https', 'shttp', 'mms',$/;"	v
+uses_fragment	parse.py	/^uses_fragment = ['ftp', 'hdl', 'http', 'gopher', 'news',$/;"	v
+scheme_chars	parse.py	/^scheme_chars = ('abcdefghijklmnopqrstuvwxyz'$/;"	v
+MAX_CACHE_SIZE	parse.py	/^MAX_CACHE_SIZE = 20$/;"	v
+_parse_cache	parse.py	/^_parse_cache = {}$/;"	v
+clear_cache	parse.py	/^def clear_cache():$/;"	f
+_implicit_encoding	parse.py	/^_implicit_encoding = 'ascii'$/;"	v
+_implicit_errors	parse.py	/^_implicit_errors = 'strict'$/;"	v
+_noop	parse.py	/^def _noop(obj):$/;"	f
+_encode_result	parse.py	/^def _encode_result(obj, encoding=_implicit_encoding,$/;"	f
+_decode_args	parse.py	/^def _decode_args(args, encoding=_implicit_encoding,$/;"	f
+_coerce_args	parse.py	/^def _coerce_args(*args):$/;"	f
+_ResultMixinStr	parse.py	/^class _ResultMixinStr(object):$/;"	c
+__slots__	parse.py	/^    __slots__ = ()$/;"	v	class:_ResultMixinStr
+encode	parse.py	/^    def encode(self, encoding='ascii', errors='strict'):$/;"	m	class:_ResultMixinStr
+_ResultMixinBytes	parse.py	/^class _ResultMixinBytes(object):$/;"	c
+__slots__	parse.py	/^    __slots__ = ()$/;"	v	class:_ResultMixinBytes
+decode	parse.py	/^    def decode(self, encoding='ascii', errors='strict'):$/;"	m	class:_ResultMixinBytes
+_NetlocResultMixinBase	parse.py	/^class _NetlocResultMixinBase(object):$/;"	c
+__slots__	parse.py	/^    __slots__ = ()$/;"	v	class:_NetlocResultMixinBase
+username	parse.py	/^    def username(self):$/;"	m	class:_NetlocResultMixinBase
+password	parse.py	/^    def password(self):$/;"	m	class:_NetlocResultMixinBase
+hostname	parse.py	/^    def hostname(self):$/;"	m	class:_NetlocResultMixinBase
+port	parse.py	/^    def port(self):$/;"	m	class:_NetlocResultMixinBase
+_NetlocResultMixinStr	parse.py	/^class _NetlocResultMixinStr(_NetlocResultMixinBase, _ResultMixinStr):$/;"	c
+__slots__	parse.py	/^    __slots__ = ()$/;"	v	class:_NetlocResultMixinStr
+_userinfo	parse.py	/^    def _userinfo(self):$/;"	m	class:_NetlocResultMixinStr
+_hostinfo	parse.py	/^    def _hostinfo(self):$/;"	m	class:_NetlocResultMixinStr
+_NetlocResultMixinBytes	parse.py	/^class _NetlocResultMixinBytes(_NetlocResultMixinBase, _ResultMixinBytes):$/;"	c
+__slots__	parse.py	/^    __slots__ = ()$/;"	v	class:_NetlocResultMixinBytes
+_userinfo	parse.py	/^    def _userinfo(self):$/;"	m	class:_NetlocResultMixinBytes
+_hostinfo	parse.py	/^    def _hostinfo(self):$/;"	m	class:_NetlocResultMixinBytes
+namedtuple	parse.py	/^from collections import namedtuple$/;"	i
+_DefragResultBase	parse.py	/^_DefragResultBase = namedtuple('DefragResult', 'url fragment')$/;"	v
+_SplitResultBase	parse.py	/^_SplitResultBase = namedtuple('SplitResult', 'scheme netloc path query fragment')$/;"	v
+_ParseResultBase	parse.py	/^_ParseResultBase = namedtuple('ParseResult', 'scheme netloc path params query fragment')$/;"	v
+ResultBase	parse.py	/^ResultBase = _NetlocResultMixinStr$/;"	v
+DefragResult	parse.py	/^class DefragResult(_DefragResultBase, _ResultMixinStr):$/;"	c
+__slots__	parse.py	/^    __slots__ = ()$/;"	v	class:DefragResult
+geturl	parse.py	/^    def geturl(self):$/;"	m	class:DefragResult
+SplitResult	parse.py	/^class SplitResult(_SplitResultBase, _NetlocResultMixinStr):$/;"	c
+__slots__	parse.py	/^    __slots__ = ()$/;"	v	class:SplitResult
+geturl	parse.py	/^    def geturl(self):$/;"	m	class:SplitResult
+ParseResult	parse.py	/^class ParseResult(_ParseResultBase, _NetlocResultMixinStr):$/;"	c
+__slots__	parse.py	/^    __slots__ = ()$/;"	v	class:ParseResult
+geturl	parse.py	/^    def geturl(self):$/;"	m	class:ParseResult
+DefragResultBytes	parse.py	/^class DefragResultBytes(_DefragResultBase, _ResultMixinBytes):$/;"	c
+__slots__	parse.py	/^    __slots__ = ()$/;"	v	class:DefragResultBytes
+geturl	parse.py	/^    def geturl(self):$/;"	m	class:DefragResultBytes
+SplitResultBytes	parse.py	/^class SplitResultBytes(_SplitResultBase, _NetlocResultMixinBytes):$/;"	c
+__slots__	parse.py	/^    __slots__ = ()$/;"	v	class:SplitResultBytes
+geturl	parse.py	/^    def geturl(self):$/;"	m	class:SplitResultBytes
+ParseResultBytes	parse.py	/^class ParseResultBytes(_ParseResultBase, _NetlocResultMixinBytes):$/;"	c
+__slots__	parse.py	/^    __slots__ = ()$/;"	v	class:ParseResultBytes
+geturl	parse.py	/^    def geturl(self):$/;"	m	class:ParseResultBytes
+_fix_result_transcoding	parse.py	/^def _fix_result_transcoding():$/;"	f
+urlparse	parse.py	/^def urlparse(url, scheme='', allow_fragments=True):$/;"	f
+_splitparams	parse.py	/^def _splitparams(url):$/;"	f
+_splitnetloc	parse.py	/^def _splitnetloc(url, start=0):$/;"	f
+urlsplit	parse.py	/^def urlsplit(url, scheme='', allow_fragments=True):$/;"	f
+urlunparse	parse.py	/^def urlunparse(components):$/;"	f
+urlunsplit	parse.py	/^def urlunsplit(components):$/;"	f
+urljoin	parse.py	/^def urljoin(base, url, allow_fragments=True):$/;"	f
+urldefrag	parse.py	/^def urldefrag(url):$/;"	f
+_hexdig	parse.py	/^_hexdig = '0123456789ABCDEFabcdef'$/;"	v
+_hextobyte	parse.py	/^_hextobyte = {(a + b).encode(): bytes([int(a + b, 16)])$/;"	v
+unquote_to_bytes	parse.py	/^def unquote_to_bytes(string):$/;"	f
+_asciire	parse.py	/^_asciire = re.compile('([\\x00-\\x7f]+)')$/;"	v
+unquote	parse.py	/^def unquote(string, encoding='utf-8', errors='replace'):$/;"	f
+parse_qs	parse.py	/^def parse_qs(qs, keep_blank_values=False, strict_parsing=False,$/;"	f
+parse_qsl	parse.py	/^def parse_qsl(qs, keep_blank_values=False, strict_parsing=False,$/;"	f
+unquote_plus	parse.py	/^def unquote_plus(string, encoding='utf-8', errors='replace'):$/;"	f
+_ALWAYS_SAFE	parse.py	/^_ALWAYS_SAFE = frozenset(b'ABCDEFGHIJKLMNOPQRSTUVWXYZ'$/;"	v
+_ALWAYS_SAFE_BYTES	parse.py	/^_ALWAYS_SAFE_BYTES = bytes(_ALWAYS_SAFE)$/;"	v
+_safe_quoters	parse.py	/^_safe_quoters = {}$/;"	v
+Quoter	parse.py	/^class Quoter(collections.defaultdict):$/;"	c
+__init__	parse.py	/^    def __init__(self, safe):$/;"	m	class:Quoter
+__repr__	parse.py	/^    def __repr__(self):$/;"	m	class:Quoter	file:
+__missing__	parse.py	/^    def __missing__(self, b):$/;"	m	class:Quoter	file:
+quote	parse.py	/^def quote(string, safe='\/', encoding=None, errors=None):$/;"	f
+quote_plus	parse.py	/^def quote_plus(string, safe='', encoding=None, errors=None):$/;"	f
+quote_from_bytes	parse.py	/^def quote_from_bytes(bs, safe='\/'):$/;"	f
+urlencode	parse.py	/^def urlencode(query, doseq=False, safe='', encoding=None, errors=None):$/;"	f
+to_bytes	parse.py	/^def to_bytes(url):$/;"	f
+unwrap	parse.py	/^def unwrap(url):$/;"	f
+_typeprog	parse.py	/^_typeprog = None$/;"	v
+splittype	parse.py	/^def splittype(url):$/;"	f
+re	parse.py	/^        import re$/;"	i
+_hostprog	parse.py	/^_hostprog = None$/;"	v
+splithost	parse.py	/^def splithost(url):$/;"	f
+re	parse.py	/^        import re$/;"	i
+_userprog	parse.py	/^_userprog = None$/;"	v
+splituser	parse.py	/^def splituser(host):$/;"	f
+re	parse.py	/^        import re$/;"	i
+_passwdprog	parse.py	/^_passwdprog = None$/;"	v
+splitpasswd	parse.py	/^def splitpasswd(user):$/;"	f
+re	parse.py	/^        import re$/;"	i
+_portprog	parse.py	/^_portprog = None$/;"	v
+splitport	parse.py	/^def splitport(host):$/;"	f
+re	parse.py	/^        import re$/;"	i
+_nportprog	parse.py	/^_nportprog = None$/;"	v
+splitnport	parse.py	/^def splitnport(host, defport=-1):$/;"	f
+re	parse.py	/^        import re$/;"	i
+_queryprog	parse.py	/^_queryprog = None$/;"	v
+splitquery	parse.py	/^def splitquery(url):$/;"	f
+re	parse.py	/^        import re$/;"	i
+_tagprog	parse.py	/^_tagprog = None$/;"	v
+splittag	parse.py	/^def splittag(url):$/;"	f
+re	parse.py	/^        import re$/;"	i
+splitattr	parse.py	/^def splitattr(url):$/;"	f
+_valueprog	parse.py	/^_valueprog = None$/;"	v
+splitvalue	parse.py	/^def splitvalue(attr):$/;"	f
+re	parse.py	/^        import re$/;"	i
